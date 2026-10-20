@@ -1,0 +1,83 @@
+﻿# Entornos y archivos temporales de Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Configuración local del editor
+.vscode/
+
+# Compilaciones de PyInstaller
+build/
+build_limpio/
+build_TBG_Calidad/
+dist/
+publicacion/
+spec_build_TBG_Calidad/
+engine/build/
+engine/dist/
+
+# Ejecutables y archivos compilados
+*.exe
+*.dll
+*.pkg
+*.pyz
+
+# Libros Excel: producción, pruebas y respaldos
+*.xlsm
+*.xlsx
+*.xls
+*.xlsb
+
+# Registros y archivos temporales
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Archivos del sistema
+Thumbs.db
+.DS_Store
+
+# Configuración local y secretos
+.env
+.env.*
+!.env.example
+
+# Respaldos antiguos de código
+engine/*_ANTES_*.py
+engine/*_BACKUP_*.py
+
+# Especificaciones antiguas de PyInstaller
+/*_ANTES_*.spec
+/*_PRUEBA_*.spec
+/*_TEST_*.spec
+/*_OLD_*.spec
+/*_ANTERIOR_*.spec
+
+# Scripts de pruebas independientes antiguos en la raíz
+/test_*.py
+
+# Archivos de distribución y paquetes de respaldo
+*.zip
+
+# Datos locales de indicadores y archivos de operación
+diccionario_datos_v1.json
+
+
+# Respaldos temporales adicionales
+engine/*.bak
+engine/*.bak_*
+
+# Pruebas manuales heredadas del motor
+engine/test_*.py
+
+# Especificación secundaria del motor
+engine/TBG_Calidad.spec
+
+
+# Libro principal del proyecto
+!TBG_Calidad.xlsm
